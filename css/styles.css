@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* titulos */
+.titulos {
+    font-family: "LXGW WenKai Mono TC", monospace;
+    text-align: center;
+    font-size: 35px;
+    color: #bbbbbb;
+    background-color: #3a3939;
+}
+.titulos-icon {
+    text-align: center;
+    font-size: 25px;
+   color: black;
+}
+.titulos-cancion {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Manufacturing Consent", system-ui;
+    color: black;
+}
+
+/* navbar */
+.carrusel {
+    color: #bbbbbb;
+    text-align: right;
+}
+.iconos {
+    display: flex;
+    gap: 20%;
+    text-align: center;
+    justify-content: center;
+}
+.iconos img {
+    width: 50px;
+    height: 50px;
+}
+.canciones {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 32px;
+}
+.canciones iframe {
+    width: 100%;
+    height: auto;
+}
+.d-block {
+    width: 100%;
+    height: 40%;
+}
+/* footer */
+.footer{
+    background-color: #24262b;
+    padding: 70px;
+}
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+}
