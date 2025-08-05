@@ -8,8 +8,11 @@
     text-align: center;
     font-size: 35px;
     color: #bbbbbb;
-    background-color: #3a3939;
+     background-color: #24262b;
+    text-decoration: underline;
+    text-decoration-color: #e91e63;;
 }
+
 .titulo-event {
     font-family: "LXGW WenKai Mono TC", monospace;
     text-align: center;
@@ -39,21 +42,28 @@
     justify-content: center;
 }
 .iconos img {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
+    transition: transform 0.3s ease-in-out;
+}
+.iconos img:hover {
+    transform: scale(1.2);
 }
 .canciones {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 32px;
+    gap: 35px;
+    transition: transform 0.3s ease-in-out;
 }
-.YouTube-canciones{
+
+.canciones iframe {
     width: 100%;
-    height: auto;
+    height: 300px;
 }
+
 .d-block {
     width: 100%;
-    height: 650px;
+    height: 550px;
 }
 /* footer */
 .footer{
@@ -147,7 +157,7 @@ ul{
     }
     .canciones iframe {
     width: 100%;
-    height: 100%;
+    height: 400px;
     }
 }
 @media (max-width: 574px) {
@@ -164,6 +174,6 @@ ul{
     }
     .canciones iframe  {
     width: 100%;
-    height: 450px;
+    height: 400px;
     }
 }
