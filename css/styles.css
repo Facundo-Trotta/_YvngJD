@@ -47,13 +47,13 @@
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 32px;
 }
-.canciones iframe {
+.YouTube-canciones{
     width: 100%;
     height: auto;
 }
 .d-block {
     width: 100%;
-    height: 550px;
+    height: 650px;
 }
 /* footer */
 .footer{
@@ -137,9 +137,33 @@ ul{
         width: 50%;
         margin-bottom: 30px;
     }
+    .d-block {
+    width: 100%;
+    height: 550px;
+    }
+    .canciones {
+        display: inline-block;
+        width: 100%;
+    }
+    .canciones iframe {
+    width: 100%;
+    height: 100%;
+    }
 }
 @media (max-width: 574px) {
     .footer-col {
         width: 100%;
+    }
+    .d-block {
+    width: 100%;
+    height: 550px;
+    }
+    .canciones {
+        display: inline-block;
+        width: 100%;
+    }
+    .canciones iframe  {
+    width: 100%;
+    height: 450px;
     }
 }
