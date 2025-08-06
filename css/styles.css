@@ -9,8 +9,8 @@
     font-size: 35px;
     color: #bbbbbb;
      background-color: #24262b;
-    text-decoration: underline;
-    text-decoration-color: #e91e63;;
+    /* text-decoration: underline;
+    text-decoration-color: #e91e63;; */
 }
 
 .titulo-event {
@@ -41,12 +41,19 @@
     text-align: center;
     justify-content: center;
 }
-.iconos img {
-    width: 70px;
-    height: 70px;
+.iconos a i  {
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 0 10px 10px 0;
+    color: #24262b;
     transition: transform 0.3s ease-in-out;
 }
-.iconos img:hover {
+.iconos a i:hover {
+    width: 60px;
+    height: 60px;
+    color: #ffffff;
+    background: #24262b;
     transform: scale(1.2);
 }
 .canciones {
