@@ -64,7 +64,6 @@
 .canciones {
     display: grid;
     grid-template-columns: repeat(2,50%);
-    gap: 35px;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -85,6 +84,39 @@
 /* acerca de mi  */
 
 /* contacto */
+.contact-section {
+    background-color: #24262b;
+    padding: 3rem;
+    color: #ffffff;
+    text-align: center;
+}
+#contact-form {
+    gap: 1.5rem;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+#contact-form input, #contact-form textarea {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+}
+#contact-form button {
+    padding: 1rem;
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#contact-form button:hover {
+    background-color: #333;
+}
 
 /* footer */
 .footer{
