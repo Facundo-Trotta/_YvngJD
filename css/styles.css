@@ -30,7 +30,10 @@
     font-family: "Manufacturing Consent", system-ui;
     color: black;
 }
-
+.navbar-brand {
+    font-family: "Manufacturing Consent", system-ui;
+    font-size: 35px;
+}
 /* navbar */
 .carrusel {
     color: #bbbbbb;
