@@ -84,13 +84,11 @@
     height: 550px;
 }
 
-/* acerca de mi  */
-
 /* contacto */
 .contact-section {
-    background-color: #24262b;
+    background-color: #ffffff;
     padding: 3rem;
-    color: #ffffff;
+    /* color: #ffffff; */
     text-align: center;
 }
 #contact-form {
@@ -118,7 +116,7 @@
     transition: background-color 0.3s ease;
 }
 #contact-form button:hover {
-    background-color: #333;
+    background-color: black;
 }
 
 /* footer */
