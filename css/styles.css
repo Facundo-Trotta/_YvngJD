@@ -18,6 +18,7 @@
     font-family: "LXGW WenKai Mono TC", monospace;
     text-align: center;
     font-size: 30px;
+    
 }
 .titulos-icon {
     text-align: center;
@@ -116,7 +117,7 @@
     transition: background-color 0.3s ease;
 }
 #contact-form button:hover {
-    background-color: black;
+    background-color: #24262b;
 }
 
 /* footer */
